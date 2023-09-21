@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    text-align: center;
+    color: white;
+    font-family: 'Courier New';
+    background-color: black;
+    padding: 10px 0;
+
+}
+footer{
+    text-align: center;
+    color: white;
+    font-family: calibri;
+    background-color: black;
+    padding: 10px 0;
+}
+body {
+    font-family: Arial;
+    font-size: 15px;
+    color: white;
+}
+.content{
+    width: 27em;
+    padding: 1em;
+    background-color:rgb(84, 31, 103);
+    margin: 0 auto;
+    max-width: 600px;
+    min-width: 400px;
+}
+.image{
+    padding: 10px;
+    float: right;
+    width: 20px;
+    height: 20px;
+}
+h2{
+    word-spacing: 10px;
+}
+.text{
+    font-size: 13px;
+    padding: 5px;
+}
+.link{
+    display: block;
+    text-align: center;
+}
+h2 span{
+    color: red;
+}
+ul{
+    line-height: 2;
+    font-size: small;
+    padding-left: 30px;
+}
+
+ul > li {
+    line-height: 150%;
+}
+Ul > li:first-child{
+    color:whitesmoke;
+}
+ul > li:last-child{
+    color:aliceblue
+}
+ul > li:nth-child(2) {
+    letter-spacing: 3px;
+    color: lightblue;
+}
+aside{
+    float: right;  
+    position: relative;
+}
+.content_table table{
+    border: 1px solid white
+}
+.content_table td{
+    width: 30px;
+    height: 30px;
+    border: solid 1px white;
+    text-align:center;
+    vertical-align: bottom;
+    color:white;
+}
+
+.logo table{
+    float: left;
+    padding: 8px
+}
+.logo td{
+    width: 5em;
+    height: 5em;
+    border: 4px solid white;
+    border-bottom-right-radius: 20%;
+    border-top-left-radius: 10%;
+    padding: 1px 3px;
+}
+.text_styles{
+   line-height: 2; 
+}
